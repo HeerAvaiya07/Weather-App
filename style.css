@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background:#222;
+}
+.card{
+    height: 450px;
+    width: 350px;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    position: absolute;
+    top: 25%;
+    left: 44%;
+    margin-top: -50px;
+    margin-left: -65px;
+    border-radius: 5%;
+}
+.search{
+    display: inline;
+}
+.mist{
+    margin-left: auto;
+    margin-right: auto;
+}
+.mist img{
+    height: 150px;
+    width: 150px;
+}
+.cell{
+    text-align: center;
+    color: azure;
+}
+.cell h1{
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+.cell p{
+    font-size: 25px;
+}
+.humidity{
+    margin-top: 45px;
+    color: white;
+    float: left;
+    display: inline;
+}
+.humidity img{
+    height: 25px;
+    width: 25px;
+}
+.wind-speed{
+    margin-top: 45px;
+    color: white;
+    float: left;
+    display: inline;
+}
+.wind-speed img{
+    height: 25px;
+    width: 25px;
+}
